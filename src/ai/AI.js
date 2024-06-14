@@ -25,7 +25,7 @@ const Ai = () => {
                         offering insightful explanations on a vast array of topics
                     </h5>
 
-                    <button className="ai-btn" onClick={handleExploreClick}>Explore</button>
+                    // <button className="ai-btn" onClick={handleExploreClick}>Explore</button>
 
             </div>
 
