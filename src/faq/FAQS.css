@@ -1,0 +1,43 @@
+.FAQ-container {
+    background-color: #0e0c0c;
+    padding: 50px;
+}
+
+.FAQ-heading {
+    color: #7cbeeb;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.question-container {
+    display: flex;
+    justify-content: space-between; /* This ensures the icon is on the right side */
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 118px 10px 10vw;
+    padding: 13px;
+}
+
+.question {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d3d3ce;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    flex-grow: 1; /* This ensures the question takes up as much space as possible */
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #d3d3ce;
+    /* margin-right: 120px; */
+}
+
+.answer {
+    font-family: 'Inter', sans-serif;
+    color: #a3a6a9;
+    margin: 20px 118px 20px 10vw;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 10px;
+}

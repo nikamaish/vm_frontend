@@ -1,0 +1,11 @@
+.signout {
+    display: inline;
+    margin-right: 20px;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signout:hover {
+    color: cyan;
+}

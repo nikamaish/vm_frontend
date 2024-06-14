@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.convert-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #002147;
+}
+
+.boxes{
+    width: 650px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #010B25;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0  rgba(0, 0, 0, 0.37);
+}
+
+/* glass effect */
+/* .glasses{
+    background: linear-gradient(135deg, rgba(255, 255,255, 0.1), rgba(255, 255, 255, 0.04));
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255,255, 0.18);
+    box-shadow: 0 8px 32px 0  rgba(0, 0, 0, 0.37);
+} */
+
+.converter-title{
+    display: flex;
+    gap: 18px;
+    color: #fffaf0;
+    margin: 10px;
+    padding: 6px;
+}
+
+.converter-heading{
+    font-size: 2.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.boxes2{
+    display: flex;
+    position: relative;
+    margin: 15px;
+}
+
+.formContainer-converter{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.formContainer-converter form {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.formContainer-converter form select{
+    width: 160px;
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: #6a89ac;
+    color: #fffaf0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formContainer-converter form input{
+    width: 370px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7b3;
+    color: #002147;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: end;
+}
+
+.formContainer-converter form input::-webkit-inner-spin-button,
+.formContainer-converter form input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.converter-btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    line-height: 1;
+    position: absolute;
+    top: 33%;
+    right: 170px;
+    background-color: #041119;;
+    color: #91adcc;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    /* padding: 8px; */
+}
+
+ .converter-btn span {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.converter-btn span:hover {
+    transform: rotate(180deg);
+}
+
+.exchange-rate{
+    text-align: center;
+}
+
+.exchange-title{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    /* padding: 2px; */
+    margin-top: 4px;
+    color: #fffaf0;
+}
+
+.result{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #91adcc;
+}

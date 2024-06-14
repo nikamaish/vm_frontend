@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(18, 19, 23)
+    
+}
+
+.main {
+    display: flex;
+    background-color: rgb(18, 19, 23);
+  
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.left h1,
+h3 {
+    color: white;
+    text-align: left;
+}
+
+.left h3 {
+    padding-top: 20px;
+    line-height: 25px;
+    color: rgb(121, 127, 139);
+    font-weight: 100;
+}
+
+.right {
+    flex: 1;
+    /* background-color: green; */
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(18, 19, 23);
+
+}
+
+.rect-container {
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(30, 31, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    position: relative; /* Change from absolute to relative */
+    z-index: 1;
+}
+
+.rect-container .btc-coin {
+    width: 150px;
+    height: auto;
+    position: absolute; /* Change from relative to absolute */
+    top: -60px; /* Adjust the positioning */
+}
+
+.rect-container h3 {
+    text-align: center;
+    padding-top: 100px; /* Adjust padding to create space between image and text */
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+
+.main-2nd {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    padding-top: 20px;
+
+}
+
+.main-2nd .member-card {
+    border: 1px solid #fff;
+    width: 17vw;
+    height: 45vh; /* Adjust the card height as needed */
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+
+  .member-card img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 100px;
+    
+  }
+    
+.member-card{
+
+    margin-right: 50px;
+}
+
+.member-card .details p{
+
+    padding-top: 10px;
+}
+
+
+.risk1 {
+    background-color: rgb(18, 19, 23);
+    height: 70vh;
+}
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+}
+
+.rectangular-container1 {
+    width: 90%; 
+    padding: 30px;
+    background-color: rgb(30, 31, 36);
+    border: 1px solid rgb(30, 31, 36); 
+    text-align: center; 
+    height: 50vh;
+    color: azure;
+    border-radius: 5px;
+
+}
+
+.risk-heading {
+    text-align: center;
+    font-weight: 700;
+    color: #f4f0ec;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 2%;
+}
+
+.risk-para {
+    margin: 0; /* Remove default margin for the paragraph */
+    color: #e5e4e2;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sponsor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsored{
+    
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+
+.sponsor h4{
+
+    font-size: 20px;
+    font-weight: 300;
+}
+
